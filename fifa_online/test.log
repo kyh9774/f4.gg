@@ -1,0 +1,1150 @@
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 15:56:29] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 15:56:29] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 15:56:29] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 15:56:29] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 15:56:30] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 15:56:30] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 15:56:30] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 15:57:30] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 15:57:31] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 15:57:31] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 15:57:31] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 15:57:31] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 15:57:31] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:00:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:00:37] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:18:34] "GET / HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:18:45] "GET /니코니코니로빈 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:18:45] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:18:46] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:18:46] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:18:46] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:18:46] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:18:46] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:21:17] "GET /니코니코니로빈 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:21:18] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:21:18] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:21:18] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:21:18] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:21:18] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/summoner/v4/summoners/by-name/%EB%8B%88%EC%BD%94%EB%8B%88%EC%BD%94%EB%8B%88%EB%A1%9C%EB%B9%88?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 291
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:22:42] "GET /니코니코니로빈 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/summoner/v4/summoners/by-name/%EB%8B%88%EC%BD%94%EB%8B%88%EC%BD%94%EB%8B%88%EB%A1%9C%EB%B9%88?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 291
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/league/v4/entries/by-summoner/J1Y_CNKX2eI4RfWS95KMskdX589QWfSNw3KBYagv6TYFKPM?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 269
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:32:00] "GET /니코니코니로빈 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:32:00] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:32:00] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:32:01] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:32:01] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:32:01] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:32:01] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/summoner/v4/summoners/by-name/%EB%8B%88%EC%BD%94%EB%8B%88%EC%BD%94%EB%8B%88%EB%A1%9C%EB%B9%88?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 291
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/league/v4/entries/by-summoner/J1Y_CNKX2eI4RfWS95KMskdX589QWfSNw3KBYagv6TYFKPM?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:33:35] "GET /니코니코니로빈 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:33:35] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:33:35] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:33:35] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:33:36] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:33:36] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/summoner/v4/summoners/by-name/%EB%8B%88%EC%BD%94%EB%8B%88%EC%BD%94%EB%8B%88%EB%A1%9C%EB%B9%88?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/league/v4/entries/by-summoner/J1Y_CNKX2eI4RfWS95KMskdX589QWfSNw3KBYagv6TYFKPM?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 269
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:34:19] "GET /니코니코니로빈 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:34:19] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:34:19] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:34:20] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:34:20] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:34:20] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/summoner/v4/summoners/by-name/%EB%8B%88%EC%BD%94%EB%8B%88%EC%BD%94%EB%8B%88%EB%A1%9C%EB%B9%88?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 291
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/league/v4/entries/by-summoner/J1Y_CNKX2eI4RfWS95KMskdX589QWfSNw3KBYagv6TYFKPM?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 269
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:34:38] "GET /니코니코니로빈 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:34:38] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:34:38] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:34:39] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:34:39] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:34:39] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/summoner/v4/summoners/by-name/%EB%8B%88%EC%BD%94%EB%8B%88%EC%BD%94%EB%8B%88%EB%A1%9C%EB%B9%88?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/league/v4/entries/by-summoner/J1Y_CNKX2eI4RfWS95KMskdX589QWfSNw3KBYagv6TYFKPM?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 269
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:35:19] "GET /니코니코니로빈 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:35:19] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:35:19] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:35:19] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:35:19] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:35:19] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/summoner/v4/summoners/by-name/%EB%8B%88%EC%BD%94%EB%8B%88%EC%BD%94%EB%8B%88%EB%A1%9C%EB%B9%88?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/league/v4/entries/by-summoner/J1Y_CNKX2eI4RfWS95KMskdX589QWfSNw3KBYagv6TYFKPM?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 269
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:56:54] "GET /니코니코니로빈 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:56:54] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:56:54] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:56:54] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:56:54] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:56:54] "GET /니코니코니로빈?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/summoner/v4/summoners/by-name/%EB%8B%88%EC%BD%94%EB%8B%88%EC%BD%94%EB%8B%88%EB%A1%9C%EB%B9%88?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 291
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/league/v4/entries/by-summoner/J1Y_CNKX2eI4RfWS95KMskdX589QWfSNw3KBYagv6TYFKPM?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:57:29] "GET /니코니코니로빈 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/summoner/v4/summoners/by-name/%EC%86%8C%EB%82%98%EC%99%80%ED%95%A8%EA%BB%98%EC%B6%A4%EC%9D%84?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/league/v4/entries/by-summoner/2xBGXkvA6Y2cjZVVxASnFJ92fQgxTo7ZG-5a_kWfIcJhnA?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 398
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 16:58:32] "GET /소나와함께춤을 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/summoner/v4/summoners/by-name/%EC%86%8C%EB%82%98%EC%99%80%ED%95%A8%EA%BB%98%EC%B6%A4%EC%9D%84?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:02:56] "GET /소나와함께춤을 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:02:56] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:02:56] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:02:57] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:02:57] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:02:57] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:02:57] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:03:34] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:03:52] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/summoner/v4/summoners/by-name/%EC%86%8C%EB%82%98%EC%99%80%ED%95%A8%EA%BB%98%EC%B6%A4%EC%9D%84?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:04:14] "GET /소나와함께춤을 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:04:14] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:04:14] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:04:14] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:04:15] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:04:15] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/summoner/v4/summoners/by-name/%EC%86%8C%EB%82%98%EC%99%80%ED%95%A8%EA%BB%98%EC%B6%A4%EC%9D%84?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 303
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:04:34] "GET /소나와함께춤을 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/summoner/v4/summoners/by-name/%EC%86%8C%EB%82%98%EC%99%80%ED%95%A8%EA%BB%98%EC%B6%A4%EC%9D%84?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:08:30] "GET /소나와함께춤을 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:08:30] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:08:30] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:08:30] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:08:31] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:08:31] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:08:31] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/summoner/v4/summoners/by-name/'%EC%86%8C%EB%82%98%EC%99%80%ED%95%A8%EA%BB%98%EC%B6%A4%EC%9D%84'?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 404 84
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:11:02] "GET /소나와함께춤을 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:11:02] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:11:02] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:11:02] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:11:03] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:11:03] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/summoner/v4/summoners/by-name/%EC%86%8C%EB%82%98%EC%99%80%ED%95%A8%EA%BB%98%EC%B6%A4%EC%9D%84?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:11:58] "GET /소나와함께춤을 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:11:58] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:11:58] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:11:59] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:11:59] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:11:59] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/summoner/v4/summoners/by-name/%EC%86%8C%EB%82%98%EC%99%80%ED%95%A8%EA%BB%98%EC%B6%A4%EC%9D%84?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 303
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): lol:80
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:12:36] "GET /소나와함께춤을 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:12:36] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:12:36] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:12:36] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:12:37] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:12:37] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/summoner/v4/summoners/by-name/%EC%86%8C%EB%82%98%EC%99%80%ED%95%A8%EA%BB%98%EC%B6%A4%EC%9D%84?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/match/v4/matchlists/by-account/iswd5xoK7q8JGCT61NGbAGZiO0n9WX-qK7SgxNe0LBbX?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:13:14] "GET /소나와함께춤을 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/summoner/v4/summoners/by-name/%EC%86%8C%EB%82%98%EC%99%80%ED%95%A8%EA%BB%98%EC%B6%A4%EC%9D%84?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/match/v4/matchlists/by-account/iswd5xoK7q8JGCT61NGbAGZiO0n9WX-qK7SgxNe0LBbX?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:13:35] "GET /소나와함께춤을 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:13:35] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:13:35] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:13:36] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:13:36] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:13:36] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:13:36] "GET /소나와함께춤을?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/summoner/v4/summoners/by-name/%EC%86%8C%EB%82%98%EC%99%80%ED%95%A8%EA%BB%98%EC%B6%A4%EC%9D%84?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 303
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/match/v4/matchlists/by-account/iswd5xoK7q8JGCT61NGbAGZiO0n9WX-qK7SgxNe0LBbX?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 17:13:52] "GET /소나와함께춤을 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 20:12:22] "GET / HTTP/1.1" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/summoner/v4/summoners/by-name/favicon.ico?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 404 84
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 20:12:22] "GET /favicon.ico HTTP/1.1" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/summoner/v4/summoners/by-name/%E3%85%94%E3%85%90%E3%85%A3%E3%85%A3%E3%84%B4?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 404 84
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 20:12:27] "GET /ㅔㅐㅣㅣㄴ HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 20:12:27] "GET /ㅔㅐㅣㅣㄴ?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 20:12:27] "GET /ㅔㅐㅣㅣㄴ?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 20:12:27] "GET /ㅔㅐㅣㅣㄴ?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 20:12:27] "GET /ㅔㅐㅣㅣㄴ?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 20:12:27] "GET /ㅔㅐㅣㅣㄴ?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 20:12:27] "GET /ㅔㅐㅣㅣㄴ?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kr.api.riotgames.com:443
+DEBUG:urllib3.connectionpool:https://kr.api.riotgames.com:443 "GET /lol/summoner/v4/summoners/by-name/polls?api_key=RGAPI-fc330a67-ab31-43b1-89b9-8621bf365b78 HTTP/1.1" 404 84
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 20:12:32] "GET /polls HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 20:12:32] "GET /polls?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 20:12:32] "GET /polls?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 20:12:32] "GET /polls?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 20:12:32] "GET /polls?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 20:12:32] "GET /polls?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 20:12:32] "GET /polls?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 23:14:46] "GET / HTTP/1.1" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico&api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiNTUzNzc5Mzc4IiwiYXV0aF9pZCI6IjIiLCJ0b2tlbl90eXBlIjoiQWNjZXNzVG9rZW4iLCJzZXJ2aWNlX2lkIjoiNDMwMDExNDgxIiwiWC1BcHAtUmF0ZS1MaW1pdCI6IjIwMDAwOjEwIiwibmJmIjoxNTc0MDg1Nzg0LCJleHAiOjE2MzcxNTc3ODQsImlhdCI6MTU3NDA4NTc4NH0.oiTANYxE5xfKrRumGDQdHp14gsm3BzZYSZZLmA6JLRc HTTP/1.1" 400 48
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 23:14:47] "GET /favicon.ico HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 23:15:13] "GET / HTTP/1.1" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico&api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiNTUzNzc5Mzc4IiwiYXV0aF9pZCI6IjIiLCJ0b2tlbl90eXBlIjoiQWNjZXNzVG9rZW4iLCJzZXJ2aWNlX2lkIjoiNDMwMDExNDgxIiwiWC1BcHAtUmF0ZS1MaW1pdCI6IjIwMDAwOjEwIiwibmJmIjoxNTc0MDg1Nzg0LCJleHAiOjE2MzcxNTc3ODQsImlhdCI6MTU3NDA4NTc4NH0.oiTANYxE5xfKrRumGDQdHp14gsm3BzZYSZZLmA6JLRc HTTP/1.1" 400 48
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 23:15:13] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 23:15:20] "GET / HTTP/1.1" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico&api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiNTUzNzc5Mzc4IiwiYXV0aF9pZCI6IjIiLCJ0b2tlbl90eXBlIjoiQWNjZXNzVG9rZW4iLCJzZXJ2aWNlX2lkIjoiNDMwMDExNDgxIiwiWC1BcHAtUmF0ZS1MaW1pdCI6IjIwMDAwOjEwIiwibmJmIjoxNTc0MDg1Nzg0LCJleHAiOjE2MzcxNTc3ODQsImlhdCI6MTU3NDA4NTc4NH0.oiTANYxE5xfKrRumGDQdHp14gsm3BzZYSZZLmA6JLRc HTTP/1.1" 400 48
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 23:15:21] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 23:15:29] "GET / HTTP/1.1" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico&api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiNTUzNzc5Mzc4IiwiYXV0aF9pZCI6IjIiLCJ0b2tlbl90eXBlIjoiQWNjZXNzVG9rZW4iLCJzZXJ2aWNlX2lkIjoiNDMwMDExNDgxIiwiWC1BcHAtUmF0ZS1MaW1pdCI6IjIwMDAwOjEwIiwibmJmIjoxNTc0MDg1Nzg0LCJleHAiOjE2MzcxNTc3ODQsImlhdCI6MTU3NDA4NTc4NH0.oiTANYxE5xfKrRumGDQdHp14gsm3BzZYSZZLmA6JLRc HTTP/1.1" 400 48
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 23:15:29] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 23:15:55] "GET / HTTP/1.1" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico&api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiNTUzNzc5Mzc4IiwiYXV0aF9pZCI6IjIiLCJ0b2tlbl90eXBlIjoiQWNjZXNzVG9rZW4iLCJzZXJ2aWNlX2lkIjoiNDMwMDExNDgxIiwiWC1BcHAtUmF0ZS1MaW1pdCI6IjIwMDAwOjEwIiwibmJmIjoxNTc0MDg1Nzg0LCJleHAiOjE2MzcxNTc3ODQsImlhdCI6MTU3NDA4NTc4NH0.oiTANYxE5xfKrRumGDQdHp14gsm3BzZYSZZLmA6JLRc HTTP/1.1" 400 48
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2019 23:15:56] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:44:46] "GET /후니의백태클 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico HTTP/1.1" 404 34
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:44:46] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): static.api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://static.api.nexon.co.kr:443 "GET /fifaonline4/latest/spid.json HTTP/1.1" 200 1835685
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:47:28] "GET /후니의백태클 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:47:28] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:47:28] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:47:29] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:47:29] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:47:29] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:47:29] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): static.api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://static.api.nexon.co.kr:443 "GET /fifaonline4/latest/spid.json HTTP/1.1" 200 1835685
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:48:37] "GET /후니의백태클 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:48:37] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:48:37] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:48:37] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:48:37] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:48:37] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:49:03] "GET /후니의백태클 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico HTTP/1.1" 404 34
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:49:03] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): static.api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://static.api.nexon.co.kr:443 "GET /fifaonline4/latest/spid.json HTTP/1.1" 200 1835685
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:50:41] "GET /후니의백태클 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico HTTP/1.1" 404 34
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:50:41] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:51:02] "GET /후니의백태클 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico HTTP/1.1" 404 34
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:51:03] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): static.api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://static.api.nexon.co.kr:443 "GET /fifaonline4/latest/spid.json HTTP/1.1" 200 1835685
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:52:07] "GET /후니의백태클 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:52:07] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:52:07] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:52:08] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:52:08] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:52:08] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): static.api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://static.api.nexon.co.kr:443 "GET /fifaonline4/latest/spid.json HTTP/1.1" 200 1835685
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:53:52] "GET /후니의백태클 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico HTTP/1.1" 404 34
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:53:52] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): static.api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://static.api.nexon.co.kr:443 "GET /fifaonline4/latest/spid.json HTTP/1.1" 200 1835685
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:54:09] "GET /후니의백태클 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico HTTP/1.1" 404 34
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 11:54:09] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): static.api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://static.api.nexon.co.kr:443 "GET /fifaonline4/latest/spid.json HTTP/1.1" 200 1835685
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:06:38] "GET /후니의백태클 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico HTTP/1.1" 404 34
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:06:38] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): static.api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://static.api.nexon.co.kr:443 "GET /fifaonline4/latest/spid.json HTTP/1.1" 200 1835685
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:08:29] "GET /후니의백태클 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico HTTP/1.1" 404 34
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:08:30] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): static.api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://static.api.nexon.co.kr:443 "GET /fifaonline4/latest/spid.json HTTP/1.1" 200 1835685
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:12:24] "GET /후니의백태클 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico HTTP/1.1" 404 34
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:12:24] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): static.api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://static.api.nexon.co.kr:443 "GET /fifaonline4/latest/spid.json HTTP/1.1" 200 1835685
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:23:31] "GET /후니의백태클 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:23:31] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:23:31] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:23:31] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:23:31] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:23:32] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): static.api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://static.api.nexon.co.kr:443 "GET /fifaonline4/latest/spid.json HTTP/1.1" 200 1835685
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fo4.dn.nexoncdn.co.kr:443
+DEBUG:urllib3.connectionpool:https://fo4.dn.nexoncdn.co.kr:443 "GET /live/externalAssets/common/players/p295155355.png HTTP/1.1" 200 24774
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 20
+DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 0
+DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 30
+DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 0
+DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 19
+DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 0
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 0
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.047504745718055456, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:KOI8-R confidence = 0.0480756300445, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.046765993036158776, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:MacCyrillic confidence = 0.04752618561118727, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM866 confidence = 0.04064850199233627, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM855 confidence = 0.03901753060250574, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.046544196298509324, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:TIS-620 confidence = 0.04452540688507353, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-9 confidence = 0.045047406749663545, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.04913163083278481, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:KOI8-R not active
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:MacCyrillic not active
+DEBUG:chardet.charsetprober:IBM866 not active
+DEBUG:chardet.charsetprober:IBM855 not active
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0679316310838435
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.06997187669419253
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.050040490605439227
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:TIS-620 not active
+DEBUG:chardet.charsetprober:ISO-8859-9 not active
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.05152829575145725
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.universaldetector:no probers hit minimum threshold
+DEBUG:chardet.universaldetector:utf-8  confidence = 0.010000000000000009
+DEBUG:chardet.universaldetector:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.universaldetector:CP949 Korean confidence = 0.01
+DEBUG:chardet.universaldetector:Big5 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.universaldetector:windows-1251 Russian confidence = 0.047504745718055456
+DEBUG:chardet.universaldetector:KOI8-R Russian confidence = 0.0480756300445
+DEBUG:chardet.universaldetector:ISO-8859-5 Russian confidence = 0.046765993036158776
+DEBUG:chardet.universaldetector:MacCyrillic Russian confidence = 0.04752618561118727
+DEBUG:chardet.universaldetector:IBM866 Russian confidence = 0.04064850199233627
+DEBUG:chardet.universaldetector:IBM855 Russian confidence = 0.03901753060250574
+DEBUG:chardet.universaldetector:ISO-8859-7 Greek confidence = 0.0679316310838435
+DEBUG:chardet.universaldetector:windows-1253 Greek confidence = 0.06997187669419253
+DEBUG:chardet.universaldetector:ISO-8859-5 Bulgairan confidence = 0.050040490605439227
+DEBUG:chardet.universaldetector:windows-1251 Bulgarian confidence = 0.046544196298509324
+DEBUG:chardet.universaldetector:TIS-620 Thai confidence = 0.04452540688507353
+DEBUG:chardet.universaldetector:ISO-8859-9 Turkish confidence = 0.045047406749663545
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.05152829575145725
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04913163083278481
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04913163083278481
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:24:09] "GET /후니의백태클 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:24:09] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:24:09] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:24:09] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:24:10] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:24:10] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): static.api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://static.api.nexon.co.kr:443 "GET /fifaonline4/latest/spid.json HTTP/1.1" 200 1835685
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fo4.dn.nexoncdn.co.kr:443
+DEBUG:urllib3.connectionpool:https://fo4.dn.nexoncdn.co.kr:443 "GET /live/externalAssets/common/players/p295155355.png HTTP/1.1" 200 24774
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:25:34] "GET /후니의백태클 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:25:34] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:25:34] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:25:34] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:25:35] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:25:35] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 284-795-206
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): static.api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://static.api.nexon.co.kr:443 "GET /fifaonline4/latest/spid.json HTTP/1.1" 200 1835685
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fo4.dn.nexoncdn.co.kr:443
+DEBUG:urllib3.connectionpool:https://fo4.dn.nexoncdn.co.kr:443 "GET /live/externalAssets/common/players/p295155355.png HTTP/1.1" 200 24774
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 20
+DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 0
+DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 30
+DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 0
+DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 19
+DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 0
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 0
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.047504745718055456, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:KOI8-R confidence = 0.0480756300445, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.046765993036158776, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:MacCyrillic confidence = 0.04752618561118727, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM866 confidence = 0.04064850199233627, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM855 confidence = 0.03901753060250574, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.046544196298509324, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:TIS-620 confidence = 0.04452540688507353, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-9 confidence = 0.045047406749663545, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.04913163083278481, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:KOI8-R not active
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:MacCyrillic not active
+DEBUG:chardet.charsetprober:IBM866 not active
+DEBUG:chardet.charsetprober:IBM855 not active
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0679316310838435
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.06997187669419253
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.050040490605439227
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:TIS-620 not active
+DEBUG:chardet.charsetprober:ISO-8859-9 not active
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.05152829575145725
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.universaldetector:no probers hit minimum threshold
+DEBUG:chardet.universaldetector:utf-8  confidence = 0.010000000000000009
+DEBUG:chardet.universaldetector:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.universaldetector:CP949 Korean confidence = 0.01
+DEBUG:chardet.universaldetector:Big5 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.universaldetector:windows-1251 Russian confidence = 0.047504745718055456
+DEBUG:chardet.universaldetector:KOI8-R Russian confidence = 0.0480756300445
+DEBUG:chardet.universaldetector:ISO-8859-5 Russian confidence = 0.046765993036158776
+DEBUG:chardet.universaldetector:MacCyrillic Russian confidence = 0.04752618561118727
+DEBUG:chardet.universaldetector:IBM866 Russian confidence = 0.04064850199233627
+DEBUG:chardet.universaldetector:IBM855 Russian confidence = 0.03901753060250574
+DEBUG:chardet.universaldetector:ISO-8859-7 Greek confidence = 0.0679316310838435
+DEBUG:chardet.universaldetector:windows-1253 Greek confidence = 0.06997187669419253
+DEBUG:chardet.universaldetector:ISO-8859-5 Bulgairan confidence = 0.050040490605439227
+DEBUG:chardet.universaldetector:windows-1251 Bulgarian confidence = 0.046544196298509324
+DEBUG:chardet.universaldetector:TIS-620 Thai confidence = 0.04452540688507353
+DEBUG:chardet.universaldetector:ISO-8859-9 Turkish confidence = 0.045047406749663545
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.05152829575145725
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04913163083278481
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04913163083278481
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:25:54] "GET /후니의백태클 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:25:54] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:25:54] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:25:55] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:25:55] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2019 12:25:55] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 318-946-100
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:09:05] "GET / HTTP/1.1" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico HTTP/1.1" 404 34
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:09:06] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:09:24] "GET / HTTP/1.1" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico HTTP/1.1" 404 34
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:09:25] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 318-946-100
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:12:32] "GET / HTTP/1.1" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico HTTP/1.1" 404 34
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:12:34] "GET /favicon.ico HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): static.api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://static.api.nexon.co.kr:443 "GET /fifaonline4/latest/spid.json HTTP/1.1" 200 1835685
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fo4.dn.nexoncdn.co.kr:443
+DEBUG:urllib3.connectionpool:https://fo4.dn.nexoncdn.co.kr:443 "GET /live/externalAssets/common/players/p295155355.png HTTP/1.1" 200 24774
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 20
+DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 0
+DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 30
+DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 0
+DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 19
+DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 0
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 0
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.047504745718055456, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:KOI8-R confidence = 0.0480756300445, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.046765993036158776, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:MacCyrillic confidence = 0.04752618561118727, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM866 confidence = 0.04064850199233627, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM855 confidence = 0.03901753060250574, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.046544196298509324, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:TIS-620 confidence = 0.04452540688507353, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-9 confidence = 0.045047406749663545, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.04913163083278481, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:KOI8-R not active
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:MacCyrillic not active
+DEBUG:chardet.charsetprober:IBM866 not active
+DEBUG:chardet.charsetprober:IBM855 not active
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0679316310838435
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.06997187669419253
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.050040490605439227
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:TIS-620 not active
+DEBUG:chardet.charsetprober:ISO-8859-9 not active
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.05152829575145725
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.universaldetector:no probers hit minimum threshold
+DEBUG:chardet.universaldetector:utf-8  confidence = 0.010000000000000009
+DEBUG:chardet.universaldetector:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.universaldetector:CP949 Korean confidence = 0.01
+DEBUG:chardet.universaldetector:Big5 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.universaldetector:windows-1251 Russian confidence = 0.047504745718055456
+DEBUG:chardet.universaldetector:KOI8-R Russian confidence = 0.0480756300445
+DEBUG:chardet.universaldetector:ISO-8859-5 Russian confidence = 0.046765993036158776
+DEBUG:chardet.universaldetector:MacCyrillic Russian confidence = 0.04752618561118727
+DEBUG:chardet.universaldetector:IBM866 Russian confidence = 0.04064850199233627
+DEBUG:chardet.universaldetector:IBM855 Russian confidence = 0.03901753060250574
+DEBUG:chardet.universaldetector:ISO-8859-7 Greek confidence = 0.0679316310838435
+DEBUG:chardet.universaldetector:windows-1253 Greek confidence = 0.06997187669419253
+DEBUG:chardet.universaldetector:ISO-8859-5 Bulgairan confidence = 0.050040490605439227
+DEBUG:chardet.universaldetector:windows-1251 Bulgarian confidence = 0.046544196298509324
+DEBUG:chardet.universaldetector:TIS-620 Thai confidence = 0.04452540688507353
+DEBUG:chardet.universaldetector:ISO-8859-9 Turkish confidence = 0.045047406749663545
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.05152829575145725
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04913163083278481
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04913163083278481
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:12:47] "GET /후니의백태클 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:12:47] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:12:48] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:12:48] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:12:49] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:12:50] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:12:50] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 318-946-100
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:14:09] "GET /후니의백태클 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico HTTP/1.1" 404 34
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:14:09] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 318-946-100
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:17:08] "GET /후니의백태클 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:17:09] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:17:09] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:17:09] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:17:10] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:17:10] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 318-946-100
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 318-946-100
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:20:04] "GET /후니의백태클 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico HTTP/1.1" 404 34
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:20:08] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 318-946-100
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:21:29] "GET /후니의백태클 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:21:30] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:21:30] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:21:30] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:21:30] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:21:30] "GET /후니의백태클?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 318-946-100
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 318-946-100
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:24:28] "GET /후니의백태클 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico HTTP/1.1" 404 34
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:24:29] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 318-946-100
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:24:45] "GET /후니의백태클 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico HTTP/1.1" 404 34
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:24:46] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 318-946-100
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:25:21] "GET /후니의백태클 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico HTTP/1.1" 404 34
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:25:22] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 318-946-100
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:26:01] "GET /후니의백태클 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico HTTP/1.1" 404 34
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:26:01] "GET /favicon.ico HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%97%88%EB%A6%AC%EC%BC%80%EC%9D%B8%EC%86%90%ED%9D%A5%EB%AF%BC HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/bd5f483b25b306614f22306a/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1378
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dcf6c454938b66be0f2bac8 HTTP/1.1" 200 11320
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:28:08] "GET /허리케인손흥민 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=favicon.ico HTTP/1.1" 404 34
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2019 16:28:08] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 318-946-100
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 12:05:42] "GET / HTTP/1.1" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%EB%8B%88%EC%BD%94%EB%8B%88%EC%BD%94%EB%8B%88%EB%A1%9C%EB%B9%88 HTTP/1.1" 404 34
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 12:05:49] "GET /니코니코니로빈 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 12:05:59] "GET /후니의백태클 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 12:05:59] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 12:05:59] "GET /static/js/extention/choices.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 12:05:59] "GET /static/images/fifa_logo.png HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 12:06:26] "GET /후니의백태클 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 318-946-100
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 12:08:12] "GET / HTTP/1.1" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users?nickname=%ED%9B%84%EB%8B%88%EC%9D%98%EB%B0%B1%ED%83%9C%ED%81%B4 HTTP/1.1" 200 82
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/users/26521b1e81d3da62db867dfc/matches?matchtype=50&offset=%7Boffset%7D&limit=%7Blimit%7D HTTP/1.1" 200 1162
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.nexon.co.kr:443
+DEBUG:urllib3.connectionpool:https://api.nexon.co.kr:443 "GET /fifaonline4/v1.0/matches/5dbebc741ab5b2bc7bb5269d HTTP/1.1" 200 5437
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 12:08:19] "GET /후니의백태클 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\kyh9774\\Desktop\\lol\\lol_web\\application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Flask Web Server open!!!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 318-946-100
+INFO:werkzeug: * Running on http://localhost:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 12:08:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 12:08:46] "GET / HTTP/1.1" 200 -
