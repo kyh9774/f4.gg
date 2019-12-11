@@ -1,25 +1,20 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request, redirect
 import requests
 import logging
 import pprint
 from flask_restful import Api
-from keys import FIFA_KEY
-
+from flask_wtf import form
 import json
-from flask import Response
-from functools import wraps
 
+from keys import FIFA_KEY
+import os
+
+
+from name import NameForm
 
 application = Flask(__name__)
-
-
-# def as_json(f):
-#     @wraps(f)
-#     def decorated_function(*args, **kwargs):
-#         res = f(*args, **kwargs)
-#         res = json.dumps(res, ensure_ascii=False).encode('utf8')
-#         return Response(res, content_type='application/json; charset=utf-8')
-#     return decorated_function
+application.config['WTF_CSRF_SECRET_KEY'] = os.urandom(24)
+application.config['SECRET_KEY'] = os.urandom(24)
 
 
 api = Api(application)
@@ -30,11 +25,16 @@ logging.basicConfig(
 )
 
 
-@application.route('/')
-# @as_json
+@application.route('/', methods=['GET', 'POST'])
 def home():
+    name_form = NameForm()
+    name = str(name_form.name.data)
+    if request.method == 'POST':
+        return redirect('/' + name)
+
     return render_template(
         'index.html',
+        name_form=name_form
     )
 
 
@@ -47,7 +47,7 @@ def search_nickname(nickname):
 
     if len(user_result) == 3:
         access_id = user_result['accessId']
-        user_match = 'https://api.nexon.co.kr/fifaonline4/v1.0/users/' + access_id + '/matches?matchtype=50&offset={offset}&limit={limit}'
+        user_match = 'https://api.nexon.co.kr/fifaonline4/v1.0/users/' + access_id + '/matches?matchtype=52&offset={offset}&limit={limit}'
         user_res = requests.get(user_match, headers=headers)
         user_match_result = user_res.json()
     else:
@@ -55,10 +55,32 @@ def search_nickname(nickname):
 
     match_id = user_match_result[0]
 
+    tier_url = "https://api.nexon.co.kr/fifaonline4/v1.0/users/" + access_id + "/maxdivision"
+    tier_res = requests.get(tier_url, headers=headers)
+    tier_result = tier_res.json()
+    with open('division.json', encoding='utf-8') as json_file:
+        json_data = json.load(json_file)
+    for x in json_data:
+        if x['divisionId'] == tier_result[0]['division']:
+            tier_name = x['divisionName']
+
+
     match_url = "https://api.nexon.co.kr/fifaonline4/v1.0/matches/" + match_id
     match_res = requests.get(match_url, headers=headers)
     match_result = match_res.json()
-    return match_result
+
+    name_form = NameForm()
+    name = str(name_form.name.data)
+    if request.method == 'POST':
+        return redirect('/' + name)
+
+    return render_template(
+        'temp.html',
+        name_form=name_form,
+        match_result=match_result,
+        user_result=user_result,
+        tier_name=tier_name
+    )
 
     # player_url = "https://static.api.nexon.co.kr/fifaonline4/latest/spid.json"
     # player_res = requests.get(player_url, headers=headers)
