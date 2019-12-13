@@ -40,6 +40,7 @@ def home():
 
 @application.route('/<nickname>')
 def search_nickname(nickname):
+    a = "a"
     url = "https://api.nexon.co.kr/fifaonline4/v1.0/users?nickname=" + nickname
     headers = {'Authorization': FIFA_KEY}
     res = requests.get(url, headers=headers)
