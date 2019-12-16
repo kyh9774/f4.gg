@@ -415,6 +415,67 @@ class matchDetail(Resource):
         # return matchDetail_Json
         return matchDetailInfo
 
+#최근 게임 스쿼드명단
+class latelySquad(Resource):
+    def get(self, nickname):
+        url = "https://api.nexon.co.kr/fifaonline4/v1.0/users?nickname=" + nickname
+        res = requests.get(url, headers=headers)
+        user_result = res.json()
+
+        if len(user_result) == 3:
+            access_id = user_result['accessId']
+            user_match = 'https://api.nexon.co.kr/fifaonline4/v1.0/users/' + access_id + '/matches?matchtype=50&offset=0&limit=1'
+            user_res = requests.get(user_match, headers=headers)
+            user_match_result = user_res.json()
+        else:
+            return user_result
+
+        if len(user_match_result) == 0:
+            return user_match_result
+
+        else:
+                match_info= 'https://api.nexon.co.kr/fifaonline4/v1.0/matches/' + user_match_result[0]
+                match_res = requests.get(match_info, headers=headers)
+                match_result = match_res.json()
+
+                latelySquadName=[]
+                latelySquadPosition = []
+
+                PlayerInfo = {
+                    'Player1': PlayerSet(match_result, 0, 0),
+                    'Player2': PlayerSet(match_result, 0, 1),
+                    'Player3': PlayerSet(match_result, 0, 2),
+                    'Player4': PlayerSet(match_result, 0, 3),
+                    'Player5': PlayerSet(match_result, 0, 4),
+                    'Player6': PlayerSet(match_result, 0, 5),
+                    'Player7': PlayerSet(match_result, 0, 6),
+                    'Player8': PlayerSet(match_result, 0, 7),
+                    'Player9': PlayerSet(match_result, 0, 8),
+                    'Player10': PlayerSet(match_result, 0, 9),
+                    'Player11': PlayerSet(match_result, 0, 10),
+                    'Player12': PlayerSet(match_result, 0, 11),
+                    'Player13': PlayerSet(match_result, 0, 12),
+                    'Player14': PlayerSet(match_result, 0, 13),
+                    'Player15': PlayerSet(match_result, 0, 14),
+                    'Player16': PlayerSet(match_result, 0, 15),
+                    'Player17': PlayerSet(match_result, 0, 16),
+                    'Player18': PlayerSet(match_result, 0, 17)
+                }
+                for i in range(1,19):
+                    tempstring='Player'+str(i)
+                    latelySquadName.append(PlayerInfo[tempstring]['PlayerInfo']['Player_Name'])
+                    latelySquadPosition.append(PlayerInfo[tempstring]['PlayerInfo']['Player_Position'])
+
+                latelySquadList= {
+                    'SquadName': latelySquadName,
+                    'SquadPosition': latelySquadPosition
+                }
+                pprint.pprint(latelySquadList)
+
+        return latelySquadList
+
+
+
 
 
 
