@@ -42,23 +42,57 @@ def TeamSet(dic,TemaNum):
                 'Team_nickname': dic['matchInfo'][TemaNum]['nickname'],
             },
             'Team_Record': {
-                #팀 점수, 팀 슈팅, 팀 유효슈팅, 팀 슈팅성공률, 팀 유효슈팅성공률,
-                'Team_Score': dic['matchInfo'][TemaNum]['shoot']['goalTotal'],
-                'Team_Shoot': dic['matchInfo'][TemaNum]['shoot']['shootTotal'],
-                'Team_EffectiveShoot': dic['matchInfo'][TemaNum]['shoot']['effectiveShootTotal'],
-                'Team_ShootRate': average_func3(dic['matchInfo'][TemaNum]['shoot']['goalTotal'],
-                                                dic['matchInfo'][TemaNum]['shoot']['shootTotal']),
-                'Team_EffectiveShootRate': average_func3(dic['matchInfo'][TemaNum]['shoot']['goalTotal'],
-                                                         dic['matchInfo'][TemaNum]['shoot']['effectiveShootTotal']),
-                #팀 패스성공률, 팀경기결과, 팀 몰수패 여부, 팀 점유율, 팀 레드카드, 팀 옐로우카드
-                'Team_PassRate': average_func3(dic['matchInfo'][TemaNum]['pass']['passSuccess'],
-                                               dic['matchInfo'][TemaNum]['pass']['passTry']),
-                'Team_MatchResult': dic['matchInfo'][TemaNum]['matchDetail']['matchResult'],
-                'Team_MatchResultType': dic['matchInfo'][TemaNum]['matchDetail']['matchEndType'],
-                'Team_Passession': dic['matchInfo'][TemaNum]['matchDetail']['possession'],
-                'Team_RedCard': dic['matchInfo'][TemaNum]['matchDetail']['redCards'],
-                'Team_YellowCard': dic['matchInfo'][TemaNum]['matchDetail']['yellowCards'],
-            },
+                # 팀경기결과, 팀 몰수패 여부, 팀 점유율, 팀 레드카드, 팀 옐로우카드
+                'Team_winLoseInfo': {
+                    'Team_MatchResult': dic['matchInfo'][TemaNum]['matchDetail']['matchResult'],
+                    'Team_MatchResultType': dic['matchInfo'][TemaNum]['matchDetail']['matchEndType'],
+                    'Team_RedCard': dic['matchInfo'][TemaNum]['matchDetail']['redCards'],
+                    'Team_YellowCard': dic['matchInfo'][TemaNum]['matchDetail']['yellowCards'],
+                },
+                #팀 점수, 팀 실점, 팀 헤딩골, 팀 슈팅골, 페널티인 골 비율, 페널티아웃 골 비율
+                'Team_GoalInfo': {
+                    'Team_Score': dic['matchInfo'][TemaNum]['shoot']['goalTotal'],
+                    'Team_goalAgainst': dic['matchInfo'][abs(TemaNum-1)]['shoot']['goalTotal'],
+                    'Team_HeadingGoal': dic['matchInfo'][TemaNum]['shoot']['goalHeading'],
+                    'Team_ShootingGoal': dic['matchInfo'][TemaNum]['shoot']['goalTotal'] - dic['matchInfo'][TemaNum]['shoot']['goalHeading'],
+                    'Team_Goal_In': average_func3(dic['matchInfo'][TemaNum]['shoot']['goalInPenalty'],
+                                                  dic['matchInfo'][TemaNum]['shoot']['goalTotal']),
+                    'Team_Goal_Out': average_func3(dic['matchInfo'][TemaNum]['shoot']['goalOutPenalty'],
+                                                   dic['matchInfo'][TemaNum]['shoot']['goalTotal'])
+
+                },
+                # 팀 슈팅, 팀 유효슈팅, 팀 슈팅성공률, 팀 유효슈팅성공률, 페널티인슈팅확률, 페널티아웃 슈팅확률, 헤딩슈팅비율, 슈팅비율
+                'Team_ShootInfo': {
+                    'Team_Shoot': dic['matchInfo'][TemaNum]['shoot']['shootTotal'],
+                    'Team_EffectiveShoot': dic['matchInfo'][TemaNum]['shoot']['effectiveShootTotal'],
+                    'Team_SuccessShootRate': average_func3(dic['matchInfo'][TemaNum]['shoot']['goalTotal'],
+                                                    dic['matchInfo'][TemaNum]['shoot']['shootTotal']),
+                    'Team_SuccessEffectiveShootRate': average_func3(dic['matchInfo'][TemaNum]['shoot']['goalTotal'],
+                                                             dic['matchInfo'][TemaNum]['shoot']['effectiveShootTotal']),
+                    'Team_ShootRate_In': average_func3(dic['matchInfo'][TemaNum]['shoot']['shootInPenalty'],
+                                                       dic['matchInfo'][TemaNum]['shoot']['shootTotal']),
+                    'Team_ShootRate_Out': average_func3(dic['matchInfo'][TemaNum]['shoot']['shootOutPenalty'],
+                                                       dic['matchInfo'][TemaNum]['shoot']['shootTotal']),
+                    'Team_ShootRate_Heading': average_func3(dic['matchInfo'][TemaNum]['shoot']['shootHeading'],
+                                                            dic['matchInfo'][TemaNum]['shoot']['shootTotal']),
+                    'Team_ShootRate_Shooting': average_func3(dic['matchInfo'][TemaNum]['shoot']['shootTotal']-dic['matchInfo'][TemaNum]['shoot']['shootHeading'],
+                                                             dic['matchInfo'][TemaNum]['shoot']['shootTotal'])
+                },
+                'Team_PassInfo': {
+                    # 팀 패스성공률, 짧은패스 성공률, 긴패스 성공률, 쓰루패스 성공률, 로빙패스 성공률, 팀점유율,
+                    'Team_PassSuccess': average_func3(dic['matchInfo'][TemaNum]['pass']['passSuccess'],
+                                                   dic['matchInfo'][TemaNum]['pass']['passTry']),
+                    'Team_ShortPassSuccess': average_func3(dic['matchInfo'][TemaNum]['pass']['shortPassSuccess'],
+                                                   dic['matchInfo'][TemaNum]['pass']['shortPassTry']),
+                    'Team_LongPassSuccess': average_func3(dic['matchInfo'][TemaNum]['pass']['longPassSuccess'],
+                                                           dic['matchInfo'][TemaNum]['pass']['longPassTry']),
+                    'Team_ThroughPassSuccess': average_func3(dic['matchInfo'][TemaNum]['pass']['throughPassSuccess'],
+                                                           dic['matchInfo'][TemaNum]['pass']['throughPassTry']),
+                    'Team_LobbedThroughPassSuccess': average_func3(dic['matchInfo'][TemaNum]['pass']['lobbedThroughPassSuccess'],
+                                                           dic['matchInfo'][TemaNum]['pass']['lobbedThroughPassTry']),
+                    'Team_Passession': dic['matchInfo'][TemaNum]['matchDetail']['possession'],
+                }
+            }
         }
     }
     return Team
@@ -92,7 +126,6 @@ def PlayerNameSet(name):
     for i in json_data:
         if i['id'] == name:
             name = i['name']
-    print("1")
     return name
 
 # 선수 포지션 파악
@@ -242,13 +275,13 @@ class matchRate(Resource):
 
         matchRate_dict = {
             # winRate:승률, badEndRate:몰수패 비율
-            '1.winLoseInfo': {
+            'winLoseInfo': {
                 'winRate': winrate_func(winRate,"승"),
                 'badEndRate': winrate_func(badEndRate,2)
             },
 
             # goalRate:골 수, goalAgainst:평균 실점, goalRate_Shooting:슈팅골 수, goalRate_Heading:헤딩골 수, goal_In:페널티 인 골, goal_Out:페널티 아웃 골
-            '2.goalInfo': {
+            'goalInfo': {
                 'goalRate': average_func(goalRate),
                 'goalAgainst': average_func(goalAgainst),
                 'goalRate_Shooting': average_func2(goalRate_Shooting,goalRate),
@@ -258,7 +291,7 @@ class matchRate(Resource):
             },
 
             # shootRate:평균 슛, effectiveshootRate:평균 유효슛, shootRate_Shooting:슈팅 비율, shootRate_Heading:헤딩 비율, shootRate_In: 페널티 인 슛 비율, shootRate_Out: 페널티 아웃 슛 비율
-            '3.shootInfo': {
+            'shootInfo': {
                 'shootRate': average_func(shootRate),
                 'effectiveShootRate': average_func2(effectiveshootRate,shootRate),
                 'shootRate_Shooting': average_func2(shootRate_Shooting,shootRate),
@@ -268,7 +301,7 @@ class matchRate(Resource):
             },
 
             # success_Shoot_Rate:슛 성공 확률, success_Effectiveshoot_Rate: 유효슛 성공 확률, success_Shoot_Shooting: 슈팅 성공 확률, success_Shoot_Heading: 헤딩 성공 확률, success_Shoot_In:페널티 인 슛 성공 확률, success_Shoot_Out:페널티 아웃 슛 성공 확률
-            '4.success_ShootInfo': {
+            'success_ShootInfo': {
                 'success_Shoot_Rate': average_func2(goalRate,shootRate),
                 'success_Effectiveshoot_Rate': average_func2(goalRate,effectiveshootRate),
                 'success_Shoot_Shooting': average_func2(goalRate_Shooting,shootRate_Shooting),
@@ -278,7 +311,7 @@ class matchRate(Resource):
             },
 
             # shortPassRate:짧은 패스 비율, longPassRate:긴 패스 비율, throughPassRate:쓰루 패스 비율, lobbedThroughPassRate:로빙 패스 비율
-            '5.passInfo': {
+            'passInfo': {
                 'shortPassRate': average_func2(shortPassTry,passTry),
                 'longPassRate': average_func2(longPassTry, passTry),
                 'throughPassRate': average_func2(throughPassTry, passTry),
@@ -286,7 +319,7 @@ class matchRate(Resource):
             },
 
             # passSuccess:패스 성공률, shortPassSuccess:짧은패스 성공률, longPassSuccess:긴패스 성공률, throughPassSuccess:쓰루패스 성공률, lobbedThroughPassSuccess:로빙패스 성공률
-            '6.success_PassInfo': {
+            'success_PassInfo': {
                 'passSuccess': average_func2(passSuccess,passTry),
                 'shortPassSuccess': average_func2(shortPassSuccess, shortPassTry),
                 'longPassSuccess': average_func2(longPassSuccess, longPassTry),
@@ -302,11 +335,11 @@ class matchRate(Resource):
         # match_Rate_json = json.dumps(matchRate_dict,indent=4, ensure_ascii = False)
         match_Rate_json = json.dumps(matchRate_dict, ensure_ascii=False, indent="\t")
 
-        # return matchRate_dict
+        return matchRate_dict
         pprint.pprint(match_Rate_json)
         # return match_Rate_json
         # return json.dumps(matchRate_dict, ensure_ascii = False, indent='\t')
-        return json.dumps(matchRate_dict, ensure_ascii=False, indent="\t")
+        # return json.dumps(matchRate_dict, ensure_ascii=False, indent="\t")
 
 
 # 특정경기의 상세정보
@@ -379,7 +412,8 @@ class matchDetail(Resource):
 
         matchDetail_Json=json.dumps(matchDetailInfo, ensure_ascii=False, indent="\t")
         pprint.pprint(matchDetail_Json)
-        return matchDetail_Json
+        # return matchDetail_Json
+        return matchDetailInfo
 
 
 
