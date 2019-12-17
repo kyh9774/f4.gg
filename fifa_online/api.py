@@ -3,7 +3,7 @@
 import pprint
 import json
 import requests
-from flask import Blueprint
+from flask import Blueprint, Response
 from flask_restful import Resource, abort, reqparse
 
 from keys import FIFA_KEY
@@ -212,7 +212,8 @@ class matchRate(Resource):
                     goalRate.append(match_result['matchInfo'][0]['shoot']['goalTotal'])
                     goalAgainst.append(match_result['matchInfo'][1]['shoot']['goalTotal'])
                     goalRate_Heading.append(match_result['matchInfo'][0]['shoot']['goalHeading'])
-                    goalRate_Shooting.append(match_result['matchInfo'][0]['shoot']['goalTotal']-match_result['matchInfo'][0]['shoot']['goalHeading'])
+                    goalRate_Shooting.append(match_result['matchInfo'][0]['shoot']['goalTotal'] -
+                                             match_result['matchInfo'][0]['shoot']['goalHeading'])
                     goal_In.append(match_result['matchInfo'][0]['shoot']['goalInPenalty'])
                     goal_Out.append(match_result['matchInfo'][0]['shoot']['goalOutPenalty'])
 
@@ -220,7 +221,8 @@ class matchRate(Resource):
                     shootRate.append(match_result['matchInfo'][0]['shoot']['shootTotal'])
                     effectiveshootRate.append(match_result['matchInfo'][0]['shoot']['effectiveShootTotal'])
                     shootRate_Heading.append(match_result['matchInfo'][0]['shoot']['shootHeading'])
-                    shootRate_Shooting.append(match_result['matchInfo'][0]['shoot']['shootTotal'] - match_result['matchInfo'][0]['shoot']['shootHeading'])
+                    shootRate_Shooting.append(match_result['matchInfo'][0]['shoot']['shootTotal'] -
+                                              match_result['matchInfo'][0]['shoot']['shootHeading'])
                     shootRate_In.append(match_result['matchInfo'][0]['shoot']['shootInPenalty'])
                     shootRate_Out.append(match_result['matchInfo'][0]['shoot']['shootOutPenalty'])
 
@@ -247,7 +249,8 @@ class matchRate(Resource):
                     goalRate.append(match_result['matchInfo'][1]['shoot']['goalTotal'])
                     goalAgainst.append(match_result['matchInfo'][0]['shoot']['goalTotal'])
                     goalRate_Heading.append(match_result['matchInfo'][1]['shoot']['goalHeading'])
-                    goalRate_Shooting.append(match_result['matchInfo'][1]['shoot']['goalTotal'] - match_result['matchInfo'][1]['shoot']['goalHeading'])
+                    goalRate_Shooting.append(match_result['matchInfo'][1]['shoot']['goalTotal'] -
+                                             match_result['matchInfo'][1]['shoot']['goalHeading'])
                     goal_In.append(match_result['matchInfo'][1]['shoot']['goalInPenalty'])
                     goal_Out.append(match_result['matchInfo'][1]['shoot']['goalOutPenalty'])
 
@@ -255,7 +258,8 @@ class matchRate(Resource):
                     shootRate.append(match_result['matchInfo'][1]['shoot']['shootTotal'])
                     effectiveshootRate.append(match_result['matchInfo'][1]['shoot']['effectiveShootTotal'])
                     shootRate_Heading.append(match_result['matchInfo'][1]['shoot']['shootHeading'])
-                    shootRate_Shooting.append(match_result['matchInfo'][1]['shoot']['shootTotal'] - match_result['matchInfo'][1]['shoot']['shootHeading'])
+                    shootRate_Shooting.append(match_result['matchInfo'][1]['shoot']['shootTotal'] -
+                                              match_result['matchInfo'][1]['shoot']['shootHeading'])
                     shootRate_In.append(match_result['matchInfo'][1]['shoot']['shootInPenalty'])
                     shootRate_Out.append(match_result['matchInfo'][1]['shoot']['shootOutPenalty'])
 
@@ -279,7 +283,6 @@ class matchRate(Resource):
                 'winRate': winrate_func(winRate,"승"),
                 'badEndRate': winrate_func(badEndRate,2)
             },
-
             # goalRate:골 수, goalAgainst:평균 실점, goalRate_Shooting:슈팅골 수, goalRate_Heading:헤딩골 수, goal_In:페널티 인 골, goal_Out:페널티 아웃 골
             'goalInfo': {
                 'goalRate': average_func(goalRate),
@@ -289,7 +292,6 @@ class matchRate(Resource):
                 'goal_In': average_func2(goal_In,goalRate),
                 'goal_Out': average_func2(goal_Out,goalRate)
             },
-
             # shootRate:평균 슛, effectiveshootRate:평균 유효슛, shootRate_Shooting:슈팅 비율, shootRate_Heading:헤딩 비율, shootRate_In: 페널티 인 슛 비율, shootRate_Out: 페널티 아웃 슛 비율
             'shootInfo': {
                 'shootRate': average_func(shootRate),
@@ -299,7 +301,6 @@ class matchRate(Resource):
                 'shootRate_In': average_func2(shootRate_In,shootRate),
                 'shootRate_Out': average_func2(shootRate_Out,shootRate)
             },
-
             # success_Shoot_Rate:슛 성공 확률, success_Effectiveshoot_Rate: 유효슛 성공 확률, success_Shoot_Shooting: 슈팅 성공 확률, success_Shoot_Heading: 헤딩 성공 확률, success_Shoot_In:페널티 인 슛 성공 확률, success_Shoot_Out:페널티 아웃 슛 성공 확률
             'success_ShootInfo': {
                 'success_Shoot_Rate': average_func2(goalRate,shootRate),
@@ -309,7 +310,6 @@ class matchRate(Resource):
                 'success_Shoot_In': average_func2(goal_In,shootRate_In),
                 'success_Shoot_Out': average_func2(goal_Out,shootRate_Out)
             },
-
             # shortPassRate:짧은 패스 비율, longPassRate:긴 패스 비율, throughPassRate:쓰루 패스 비율, lobbedThroughPassRate:로빙 패스 비율
             'passInfo': {
                 'shortPassRate': average_func2(shortPassTry,passTry),
@@ -317,7 +317,6 @@ class matchRate(Resource):
                 'throughPassRate': average_func2(throughPassTry, passTry),
                 'lobbedThroughPassRate': average_func2(lobbedThroughPassTry, passTry)
             },
-
             # passSuccess:패스 성공률, shortPassSuccess:짧은패스 성공률, longPassSuccess:긴패스 성공률, throughPassSuccess:쓰루패스 성공률, lobbedThroughPassSuccess:로빙패스 성공률
             'success_PassInfo': {
                 'passSuccess': average_func2(passSuccess,passTry),
@@ -326,20 +325,21 @@ class matchRate(Resource):
                 'throughPassSuccess': average_func2(throughPassSuccess, throughPassTry),
                 'lobbedThroughPassSuccess': average_func2(lobbedThroughPassSuccess,lobbedThroughPassTry)
             }
-
         }
 
+        print("사전 프린트")
         pprint.pprint(matchRate_dict)
         # match_Rate_json = json.dumps(matchRate_dict, indent=4, sort_keys=True)
         # match_Rate_json = json.dumps(matchRate_dict,indent=4)
         # match_Rate_json = json.dumps(matchRate_dict,indent=4, ensure_ascii = False)
-        match_Rate_json = json.dumps(matchRate_dict, ensure_ascii=False, indent="\t")
+        match_Rate_json = json.dumps(matchRate_dict, ensure_ascii=False, indent='\t')
 
-        return matchRate_dict
+        # return matchRate_dict
+        print("json 프린트")
         pprint.pprint(match_Rate_json)
-        # return match_Rate_json
+        return Response(match_Rate_json, content_type='application/json; charset=utf-8')
         # return json.dumps(matchRate_dict, ensure_ascii = False, indent='\t')
-        # return json.dumps(matchRate_dict, ensure_ascii=False, indent="\t")
+        # return json.dumps(matchRate_dict, ensure_ascii=False)
 
 
 # 특정경기의 상세정보
@@ -413,7 +413,8 @@ class matchDetail(Resource):
         matchDetail_Json=json.dumps(matchDetailInfo, ensure_ascii=False, indent="\t")
         pprint.pprint(matchDetail_Json)
         # return matchDetail_Json
-        return matchDetailInfo
+        return Response(matchDetail_Json, content_type='application/json; charset=utf-8')
+        # return matchDetailInfo
 
 #최근 게임 스쿼드명단
 class latelySquad(Resource):
@@ -472,7 +473,10 @@ class latelySquad(Resource):
                 }
                 pprint.pprint(latelySquadList)
 
-        return latelySquadList
+        # return latelySquadList
+        latelySquadList_Json = json.dumps(latelySquadList, ensure_ascii=False, indent="\t")
+        return Response(latelySquadList_Json, content_type='application/json; charset=utf-8')
+
 
 
 
