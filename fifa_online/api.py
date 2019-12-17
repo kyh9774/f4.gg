@@ -70,45 +70,52 @@ def shootAreaRate(dic,TeamNum):
 
 
     TeamArea = {
-        #구역 슛, 구역 골, 구역 골 확률, 구역 유효슛 확률
+        #구역 슛, 구역비율, 구역 골, 구역 골 확률, 구역 유효슛 확률
         'A': {
             'shootArea': shootAreaList[0],
+            'areaRate':average_func3(shootAreaList[0], sum(shootAreaList)),
             'goalArea': goalAreaList[0],
             'goalRateArea': goalRateAreaList[0],
             'effectiveShootRateArea': average_func3(effectiveShootAreaList[0], shootAreaList[0])
         },
         'B': {
             'shootArea': shootAreaList[1],
+            'areaRate': average_func3(shootAreaList[1], sum(shootAreaList)),
             'goalArea': goalAreaList[1],
             'goalRateArea': goalRateAreaList[1],
             'effectiveShootRateArea': average_func3(effectiveShootAreaList[1], shootAreaList[1])
         },
         'C': {
             'shootArea': shootAreaList[2],
+            'areaRate': average_func3(shootAreaList[2], sum(shootAreaList)),
             'goalArea': goalAreaList[2],
             'goalRateArea': goalRateAreaList[2],
             'effectiveShootRateArea': average_func3(effectiveShootAreaList[2], shootAreaList[2])
         },
         'D': {
             'shootArea': shootAreaList[3],
+            'areaRate': average_func3(shootAreaList[3], sum(shootAreaList)),
             'goalArea': goalAreaList[3],
             'goalRateArea': goalRateAreaList[3],
             'effectiveShootRateArea': average_func3(effectiveShootAreaList[3], shootAreaList[3])
         },
         'E': {
             'shootArea': shootAreaList[4],
+            'areaRate': average_func3(shootAreaList[4], sum(shootAreaList)),
             'goalArea': goalAreaList[4],
             'goalRateArea': goalRateAreaList[4],
             'effectiveShootRateArea': average_func3(effectiveShootAreaList[4], shootAreaList[4])
         },
         'F': {
             'shootArea': shootAreaList[5],
+            'areaRate': average_func3(shootAreaList[5], sum(shootAreaList)),
             'goalArea': goalAreaList[5],
             'goalRateArea': goalRateAreaList[5],
             'effectiveShootRateArea': average_func3(effectiveShootAreaList[5], shootAreaList[5])
         },
         'G': {
             'shootArea': shootAreaList[6],
+            'areaRate': average_func3(shootAreaList[6], sum(shootAreaList)),
             'goalArea': goalAreaList[6],
             'goalRateArea': goalRateAreaList[6],
             'effectiveShootRateArea': average_func3(effectiveShootAreaList[6], shootAreaList[6])
@@ -123,26 +130,26 @@ def areaSort(setlist, xlist, ylist):
     print(xlist)
     print(ylist)
     print(setlist)
-    if xlist > 0.8:
+    if xlist > 0.84:
         print("areaTest")
-        if 0.67 > ylist > 0.6:
+        if 0.77 > ylist > 0.62:
             setlist[1] = setlist[1] + 1
 
-        elif 0.6 > ylist > 0.4:
+        elif 0.62 > ylist > 0.38:
             setlist[0] = setlist[0] + 1
 
 
-        elif 0.4 > ylist > 0.33:
+        elif 0.4 > ylist > 0.23:
             setlist[2] = setlist[2] + 1
 
-    elif xlist > 0.6:
-        if ylist > 0.6:
+    elif xlist > 0.73:
+        if ylist > 0.62:
             setlist[4] = setlist[4] + 1
 
-        elif 0.6 > ylist > 0.4:
+        elif 0.62 > ylist > 0.38:
             setlist[3] = setlist[3] + 1
 
-        elif 0.4 > ylist:
+        elif 0.38 > ylist:
             setlist[5] = setlist[5] + 1
 
     else:
