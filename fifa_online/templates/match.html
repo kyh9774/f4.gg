@@ -1,0 +1,37 @@
+{% extends 'player.html' %}
+
+{% block content %}
+    {% for match in match_info %}
+              <a href = "/{{ user_result['nickname'] }}/{{ match['matchId'] }}">
+              <button class="match {% if (((match['matchInfo'][0]['nickname'] == nickname) and (match['matchInfo'][0]['matchDetail']['matchResult'] == '승')) or
+              ((match['matchInfo'][1]['nickname'] == nickname) and (match['matchInfo'][1]['matchDetail']['matchResult'] == '승')))%}
+              win{% endif %}">
+
+                <div class="left">
+                  <h6>{{ match['matchInfo'][0]['nickname'] }}</h6></div>
+                <h5 class="left-goal">{{ match['matchInfo'][0]['shoot']['goalTotal'] }}</h5>
+                <div class="center">
+                  <table>
+                    <tr><td><h8>{{ match['matchInfo'][0]['matchDetail']['possession'] }}</h8></td>
+                      <td><h8>점유율</h8></td>
+                      <td><h8>{{ match['matchInfo'][1]['matchDetail']['possession'] }}</h8></td></tr>
+                    <tr>
+                      <td><h8>{{ match['matchInfo'][0]['shoot']['shootTotal'] }} / {{ match['matchInfo'][0]['shoot']['effectiveShootTotal'] }}</h8></td>
+                      <td><h8>슛/유효슛</h8></td>
+                      <td><h8>{{ match['matchInfo'][1]['shoot']['shootTotal'] }} / {{ match['matchInfo'][1]['shoot']['effectiveShootTotal'] }}</h8></td>
+                    </tr>
+                    <tr>
+                      <td><h8 class="yellow">{{ match['matchInfo'][0]['matchDetail']['yellowCards'] }}</h8> / <h8 class="red">{{ match['matchInfo'][0]['matchDetail']['redCards'] }}</h8></td>
+                      <td><img src="/static/images/yellow.PNG" style="max-width: 10%"/><h8> /
+                      </h8><img src="/static/images/red.PNG" style="max-width: 10%"/></td>
+                      <td><h8 class="yellow">{{ match['matchInfo'][0]['matchDetail']['yellowCards'] }}</h8> / <h8 class="red">{{ match['matchInfo'][0]['matchDetail']['redCards'] }}</h8></td>
+                    </tr>
+                  </table>
+                </div>
+                <h5 class="right-goal">{{ match['matchInfo'][1]['shoot']['goalTotal'] }}</h5>
+                <div class="right">
+                  <h6>{{ match['matchInfo'][1]['nickname'] }}</h6></div>
+              </button>
+                  </a>
+        {% endfor %}
+{% endblock %}

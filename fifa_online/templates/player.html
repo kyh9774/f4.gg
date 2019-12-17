@@ -1,16 +1,30 @@
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="colorlib.com">
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
-    <link href="../static/css/player.css" rel="stylesheet" />
-  </head>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Shop Homepage - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="../static/css/shop-homepage.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top search-bar">
     <div class="s003">
+      <div class="image"></div>
       <form action="" method="POST" class="text-center">
-          <div class="image"></div>
         {% set field = name_form.display[0] %}
         {{ name_form.hidden_tag() }}
         <div class="text-center inner-form">
@@ -32,8 +46,63 @@
         </div>
       </form>
     </div>
-    <div class = "player">
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container body-class">
+
+    <div class="row">
+
+      <div class="col-lg-3 test-class">
+        <h5 class="text-center">{{ user_result['nickname'] }}</h5>
+        <div class="tier-class">
+          <img src="/static/images/{{ tier_name }}.PNG" style="max-width: 30%" class="grid one"/>
+          <div class="grid two"><h6 class="tier-name">{{ tier_name }}</h6>
+              <table>
+                  <tr>
+                      <td><h8>20경기 승률</h8></td>
+                      <td><h8>{{ (rate_result['winLoseInfo']['winRate'] * 100) | int }}%</h8></td>
+                  </tr>
+                  <tr>
+                      <td><h8>평균 득점/실점</h8></td>
+                      <td><h8>{{ rate_result['goalInfo']['goalRate'] }}/{{ rate_result['goalInfo']['goalAgainst'] }}</h8></td>
+                  </tr>
+              </table>
+          </div>
+        </div>
+      </div>
+      <!-- /.col-lg-3 -->
+
+      <div class="col-lg-9">
+        {% block content %}{% endblock %}
+
+        <div class="row">
+
+
+        </div>
+        <!-- /.row -->
+
+      </div>
+      <!-- /.col-lg-9 -->
 
     </div>
-  </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+<!--  <footer class="py-5 bg-dark">-->
+<!--    <div class="container">-->
+<!--      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>-->
+<!--    </div>-->
+<!--    &lt;!&ndash; /.container &ndash;&gt;-->
+<!--  </footer>-->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../static/vendor/jquery/jquery.min.js"></script>
+  <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
 </html>

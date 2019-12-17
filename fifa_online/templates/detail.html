@@ -1,0 +1,155 @@
+{% extends 'player.html' %}
+
+{% block content %}
+    <div class="matchinfo">
+        <table class="short">
+            <tr><td><h6>{{ match_result['matchInfo'][0]['nickname'] }}</h6></td>
+                <td><h6>{{ match_result['matchInfo'][1]['nickname'] }}</h6></td>
+            </tr>
+            <tr><td><h6>{{ my_result['Team1']['TeamInfo']['Team']['Team_Record']['Team_GoalInfo']['Team_Score'] }}</h6></h6></td>
+                <td><h6>{{ my_result['Team2']['TeamInfo']['Team']['Team_Record']['Team_GoalInfo']['Team_Score'] }}</h6></td>
+            </tr>
+        </table>
+        <table class="short">
+            <tr><td><h8>{{ my_result['Team1']['TeamInfo']['Team']['Team_Record']['Team_ShootInfo']['Team_Shoot'] }}</h8></td>
+                <td><h8>슛</h8></td>
+                <td><h8>{{ my_result['Team2']['TeamInfo']['Team']['Team_Record']['Team_ShootInfo']['Team_Shoot'] }}</h8></td></tr>
+            <tr>
+                <td><h8>{{ my_result['Team1']['TeamInfo']['Team']['Team_Record']['Team_ShootInfo']['Team_EffectiveShoot'] }}</h8></td>
+                <td><h8>유효슛</h8></td>
+                <td><h8>{{ my_result['Team2']['TeamInfo']['Team']['Team_Record']['Team_ShootInfo']['Team_EffectiveShoot'] }}</h8></td>
+            </tr>
+            <tr>
+                <td><h8>{{ (my_result['Team1']['TeamInfo']['Team']['Team_Record']['Team_ShootInfo']['Team_SuccessShootRate'] * 100) | int }}%</h8></td>
+                <td><h8>슛 성공률(%)</h8></td>
+                <td><h8>{{ (my_result['Team2']['TeamInfo']['Team']['Team_Record']['Team_ShootInfo']['Team_SuccessShootRate'] * 100) | int }}%</h8></td>
+            </tr>
+            <tr>
+                <td><h8>{{ (my_result['Team1']['TeamInfo']['Team']['Team_Record']['Team_PassInfo']['Team_PassSuccess'] * 100) | int }}%</h8></td>
+                <td><h8>패스 성공률(%)</h8></td>
+                <td><h8>{{ (my_result['Team2']['TeamInfo']['Team']['Team_Record']['Team_PassInfo']['Team_PassSuccess'] * 100) | int }}%</h8></td>
+            </tr>
+            <tr>
+                <td><h8>{{ my_result['Team1']['TeamInfo']['Team']['Team_Record']['Team_PassInfo']['Team_Passession'] }}%</h8></td>
+                <td><h8>점유율(%)</h8></td>
+                <td><h8>{{ my_result['Team2']['TeamInfo']['Team']['Team_Record']['Team_PassInfo']['Team_Passession'] }}%</h8></td>
+            </tr>
+            <tr>
+                <td><h8>{{ match_result['matchInfo'][0]['matchDetail']['cornerKick'] }}</h8></td>
+                <td><h8>코너킥</h8></td>
+                <td><h8>{{ match_result['matchInfo'][1]['matchDetail']['cornerKick'] }}</h8></td>
+            </tr>
+            <tr>
+                <td><h8>{{ match_result['matchInfo'][0]['defence']['tackleTry'] }}</h8></td>
+                <td><h8>태클</h8></td>
+                <td><h8>{{ match_result['matchInfo'][1]['defence']['tackleTry'] }}</h8></td>
+            </tr>
+            <tr>
+                <td><h8>{{ match_result['matchInfo'][0]['matchDetail']['foul'] }}</h8></td>
+                <td><h8>파울</h8></td>
+                <td><h8>{{ match_result['matchInfo'][1]['matchDetail']['foul'] }}</h8></td>
+            </tr>
+            <tr>
+                <td><h8>{{ match_result['matchInfo'][0]['matchDetail']['yellowCards'] }}</h8></td>
+                <td><h8>경고</h8></td>
+                <td><h8>{{ match_result['matchInfo'][1]['matchDetail']['yellowCards'] }}</h8></td>
+            </tr>
+            <tr>
+                <td><h8>{{ match_result['matchInfo'][0]['matchDetail']['redCards'] }}</h8></td>
+                <td><h8>퇴장</h8></td>
+                <td><h8>{{ match_result['matchInfo'][1]['matchDetail']['redCards'] }}</h8></td>
+            </tr>
+        </table>
+    </div>
+    <div class="row">
+        {% for i in range(1, 19) %}
+        <div class="players">
+            <img src="{{ team1_player[i-1] }}" style="width: 35%;"/>
+            <div class="player-state">
+                <h8>{{ my_result['Team1']['PlayerInfo']['Player'+(i|string)]['PlayerInfo']['Player_Name'] }}</h8><br>
+                <h8>{{ my_result['Team1']['PlayerInfo']['Player'+(i|string)]['PlayerInfo']['Player_Position'] }}</h8>
+                <table class="state">
+                    <tr>
+                        <td><h8>골/어시스트</h8></td>
+                        <td>{{ my_result['Team1']['PlayerInfo']['Player'+(i|string)]['Player_Record']['Player_Goal'] }}
+                            /{{ my_result['Team1']['PlayerInfo']['Player'+(i|string)]['Player_Record']['Player_Assist'] }}</td>
+                    </tr>
+                    <tr>
+                        <td><h8>슛</h8></td>
+                        <td>{{ my_result['Team1']['PlayerInfo']['Player'+(i|string)]['Player_Record']['Player_Shoot'] }}</td>
+                    </tr>
+                    <tr>
+                        <td><h8>평점</h8></td>
+                        <td>{{ my_result['Team1']['PlayerInfo']['Player'+(i|string)]['Player_Record']['Player_Score'] }}</td>
+                    </tr>
+                    <tr>
+                        <td><h8>슛성공률</h8></td>
+                        <td>{{ my_result['Team1']['PlayerInfo']['Player'+(i|string)]['Player_Record']['Player_ShootRate'] * 100 | int }}</td>
+                    </tr>
+                    <tr>
+                        <td><h8>패스성공률</h8></td>
+                        <td>{{ my_result['Team1']['PlayerInfo']['Player'+(i|string)]['Player_Record']['Player_PassRate'] *100 |int }}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="players">
+            <img src="{{ team2_player[i-1] }}" style="width: 35%;"/>
+            <div class="player-state">
+                <h8>{{ my_result['Team2']['PlayerInfo']['Player'+(i|string)]['PlayerInfo']['Player_Name'] }}</h8><br>
+                <h8>{{ my_result['Team2']['PlayerInfo']['Player'+(i|string)]['PlayerInfo']['Player_Position'] }}</h8>
+                <table class="state">
+                    <tr>
+                        <td><h8>골/어시스트</h8></td>
+                        <td>{{ my_result['Team2']['PlayerInfo']['Player'+(i|string)]['Player_Record']['Player_Goal'] }}
+                            /{{ my_result['Team2']['PlayerInfo']['Player'+(i|string)]['Player_Record']['Player_Assist'] }}</td>
+                    </tr>
+                    <tr>
+                        <td><h8>슛</h8></td>
+                        <td>{{ my_result['Team2']['PlayerInfo']['Player'+(i|string)]['Player_Record']['Player_Shoot'] }}</td>
+                    </tr>
+                    <tr>
+                        <td><h8>평점</h8></td>
+                        <td>{{ my_result['Team2']['PlayerInfo']['Player'+(i|string)]['Player_Record']['Player_Score'] }}</td>
+                    </tr>
+                    <tr>
+                        <td><h8>슛성공률</h8></td>
+                        <td>{{ my_result['Team2']['PlayerInfo']['Player'+(i|string)]['Player_Record']['Player_ShootRate'] * 100 | int }}</td>
+                    </tr>
+                    <tr>
+                        <td><h8>패스성공률</h8></td>
+                        <td>{{ my_result['Team2']['PlayerInfo']['Player'+(i|string)]['Player_Record']['Player_PassRate'] *100 |int }}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <h5 class="shoot">슈팅 정보</h5>
+    {% for i in ['A','B','C','D','E','F','G']%}
+    <div class="ground {{ i }}">
+        <div class="fb-ground">
+            <div class="players region">
+                <table class="someA">
+                    <tr>
+                        <td><h7>슛</h7></td>
+                        <td><h7>{{ regionInfo['TeamInfo']['Team']['Team_Record']['Team_AttackAreea'][i]['shootArea'] }}</h7></td>
+                    </tr>
+                    <tr>
+                        <td><h7>골</h7></td>
+                        <td>{{ regionInfo['TeamInfo']['Team']['Team_Record']['Team_AttackAreea'][i]['goalArea'] }}</td>
+                    </tr>
+                    <tr>
+                        <td><h7>슛 성공률</h7></td>
+                        <td>{{ (regionInfo['TeamInfo']['Team']['Team_Record']['Team_AttackAreea'][i]['goalRateArea'] * 100) | int}}%</td>
+                    </tr>
+                    <tr>
+                        <td><h7>유효 슈팅률</h7></td>
+                        <td>{{ (regionInfo['TeamInfo']['Team']['Team_Record']['Team_AttackAreea'][i]['effectiveShootRateArea'] * 100) | int }}%</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+{% endblock %}
