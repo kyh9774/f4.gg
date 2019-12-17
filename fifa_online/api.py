@@ -33,6 +33,125 @@ def average_func3(int, int2):
         return 0
     return round(int/int2,2)
 
+#슛 구역 딕셔너리 생성
+def shootAreaRate(dic,TeamNum):
+    area=['A','B','C','D','E','F','G']
+    x=[]
+    y=[]
+    shootAreaList=[0, 0, 0, 0, 0, 0, 0]
+    goalAreaList = [0, 0, 0, 0, 0, 0, 0]
+    effectiveShootAreaList = [0, 0, 0, 0, 0, 0, 0]
+    goalRateAreaList = [0, 0, 0, 0, 0, 0, 0]
+
+    for value in dic['matchInfo'][TeamNum]['shootDetail']:
+        shootAreaList=areaSort(shootAreaList,
+                               value['x'],
+                               value['y'])
+        print("Vas")
+        print(value['x'])
+        if value['result']==3:
+            goalAreaList = areaSort(goalAreaList,
+                                     value['x'],
+                                     value['y'])
+
+        if (value['result'] == 1 or value['result'] == 3):
+            effectiveShootAreaList = areaSort(effectiveShootAreaList,
+                                    value['x'],
+                                    value['y'])
+
+    for i in range(0,7):
+        goalRateAreaList[i] = average_func3(goalAreaList[i],shootAreaList[i])
+
+    print("리스트")
+    pprint.pprint(shootAreaList)
+    pprint.pprint(goalAreaList)
+    pprint.pprint(effectiveShootAreaList)
+    pprint.pprint(goalRateAreaList)
+
+
+    TeamArea = {
+        #구역 슛, 구역 골, 구역 골 확률, 구역 유효슛 확률
+        'A': {
+            'shootArea': shootAreaList[0],
+            'goalArea': goalAreaList[0],
+            'goalRateArea': goalRateAreaList[0],
+            'effectiveShootRateArea': average_func3(effectiveShootAreaList[0], shootAreaList[0])
+        },
+        'B': {
+            'shootArea': shootAreaList[1],
+            'goalArea': goalAreaList[1],
+            'goalRateArea': goalRateAreaList[1],
+            'effectiveShootRateArea': average_func3(effectiveShootAreaList[1], shootAreaList[1])
+        },
+        'C': {
+            'shootArea': shootAreaList[2],
+            'goalArea': goalAreaList[2],
+            'goalRateArea': goalRateAreaList[2],
+            'effectiveShootRateArea': average_func3(effectiveShootAreaList[2], shootAreaList[2])
+        },
+        'D': {
+            'shootArea': shootAreaList[3],
+            'goalArea': goalAreaList[3],
+            'goalRateArea': goalRateAreaList[3],
+            'effectiveShootRateArea': average_func3(effectiveShootAreaList[3], shootAreaList[3])
+        },
+        'E': {
+            'shootArea': shootAreaList[4],
+            'goalArea': goalAreaList[4],
+            'goalRateArea': goalRateAreaList[4],
+            'effectiveShootRateArea': average_func3(effectiveShootAreaList[4], shootAreaList[4])
+        },
+        'F': {
+            'shootArea': shootAreaList[5],
+            'goalArea': goalAreaList[5],
+            'goalRateArea': goalRateAreaList[5],
+            'effectiveShootRateArea': average_func3(effectiveShootAreaList[5], shootAreaList[5])
+        },
+        'G': {
+            'shootArea': shootAreaList[6],
+            'goalArea': goalAreaList[6],
+            'goalRateArea': goalRateAreaList[6],
+            'effectiveShootRateArea': average_func3(effectiveShootAreaList[6], shootAreaList[6])
+        },
+    }
+
+    return TeamArea
+
+#슛 구역 분석
+def areaSort(setlist, xlist, ylist):
+    print("areaSOrt")
+    print(xlist)
+    print(ylist)
+    print(setlist)
+    if xlist > 0.8:
+        print("areaTest")
+        if 0.67 > ylist > 0.6:
+            setlist[1] = setlist[1] + 1
+
+        elif 0.6 > ylist > 0.4:
+            setlist[0] = setlist[0] + 1
+
+
+        elif 0.4 > ylist > 0.33:
+            setlist[2] = setlist[2] + 1
+
+    elif xlist > 0.6:
+        if ylist > 0.6:
+            setlist[4] = setlist[4] + 1
+
+        elif 0.6 > ylist > 0.4:
+            setlist[3] = setlist[3] + 1
+
+        elif 0.4 > ylist:
+            setlist[5] = setlist[5] + 1
+
+    else:
+        setlist[6] = setlist[6] + 1
+
+    print("S")
+    print(setlist)
+    return setlist
+
 # 팀기록 딕셔너리 함수
 def TeamSet(dic,TemaNum):
     Team = {
@@ -91,7 +210,8 @@ def TeamSet(dic,TemaNum):
                     'Team_LobbedThroughPassSuccess': average_func3(dic['matchInfo'][TemaNum]['pass']['lobbedThroughPassSuccess'],
                                                            dic['matchInfo'][TemaNum]['pass']['lobbedThroughPassTry']),
                     'Team_Passession': dic['matchInfo'][TemaNum]['matchDetail']['possession'],
-                }
+                },
+                'Team_AttackAreea': shootAreaRate(dic,TemaNum)
             }
         }
     }
@@ -103,18 +223,23 @@ def PlayerSet(dic,TemaNum,PlayerNUm):
         'PlayerInfo': {
             #선수 이름, 포지션 ,선수 강화등급
             'Player_Name': PlayerNameSet(dic['matchInfo'][TemaNum]['player'][PlayerNUm]['spId']),
+            'Player_Pid': dic['matchInfo'][TemaNum]['player'][PlayerNUm]['spId'],
             'Player_Position': PlayerPositionPosSet(dic['matchInfo'][TemaNum]['player'][PlayerNUm]['spPosition']),
             'Player_Grade':dic['matchInfo'][TemaNum]['player'][PlayerNUm]['spGrade']
         },
 
         'Player_Record': {
-            #선수 슈팅, 선수 패스성공률, 선수 어시스트, 선수 골, 선수 평점
+            #선수 슈팅, 선수 패스성공률, 선수 어시스트, 선수 골, 선수 평점, 선수 슈팅 성공률, 선수 유효슈팅 성공률
             'Player_Shoot': dic['matchInfo'][TemaNum]['player'][PlayerNUm]['status']['shoot'],
             'Player_PassRate': average_func3(dic['matchInfo'][TemaNum]['player'][PlayerNUm]['status']['passSuccess'],
                                          dic['matchInfo'][TemaNum]['player'][PlayerNUm]['status']['passTry']),
             'Player_Assist': dic['matchInfo'][TemaNum]['player'][PlayerNUm]['status']['assist'],
             'Player_Goal': dic['matchInfo'][TemaNum]['player'][PlayerNUm]['status']['goal'],
-            'Player_Score': dic['matchInfo'][TemaNum]['player'][PlayerNUm]['status']['spRating']
+            'Player_Score': dic['matchInfo'][TemaNum]['player'][PlayerNUm]['status']['spRating'],
+            'Player_ShootRate': average_func3(dic['matchInfo'][TemaNum]['player'][PlayerNUm]['status']['goal'],
+                                             dic['matchInfo'][TemaNum]['player'][PlayerNUm]['status']['shoot']),
+            'Player_EffectiveShootsRate': average_func3(dic['matchInfo'][TemaNum]['player'][PlayerNUm]['status']['effectiveShoot'],
+                                             dic['matchInfo'][TemaNum]['player'][PlayerNUm]['status']['shoot'])
         }
     }
     return Player
