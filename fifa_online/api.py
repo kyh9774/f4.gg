@@ -573,27 +573,32 @@ class latelySquad(Resource):
 
                 latelySquadName=[]
                 latelySquadPosition = []
+                if match_result['matchInfo'][0]['accessId'] == access_id:
+                    TeamNum=0
+                else:
+                    TeamNum=1
 
                 PlayerInfo = {
-                    'Player1': PlayerSet(match_result, 0, 0),
-                    'Player2': PlayerSet(match_result, 0, 1),
-                    'Player3': PlayerSet(match_result, 0, 2),
-                    'Player4': PlayerSet(match_result, 0, 3),
-                    'Player5': PlayerSet(match_result, 0, 4),
-                    'Player6': PlayerSet(match_result, 0, 5),
-                    'Player7': PlayerSet(match_result, 0, 6),
-                    'Player8': PlayerSet(match_result, 0, 7),
-                    'Player9': PlayerSet(match_result, 0, 8),
-                    'Player10': PlayerSet(match_result, 0, 9),
-                    'Player11': PlayerSet(match_result, 0, 10),
-                    'Player12': PlayerSet(match_result, 0, 11),
-                    'Player13': PlayerSet(match_result, 0, 12),
-                    'Player14': PlayerSet(match_result, 0, 13),
-                    'Player15': PlayerSet(match_result, 0, 14),
-                    'Player16': PlayerSet(match_result, 0, 15),
-                    'Player17': PlayerSet(match_result, 0, 16),
-                    'Player18': PlayerSet(match_result, 0, 17)
+                    'Player1': PlayerSet(match_result, TeamNum, 0),
+                    'Player2': PlayerSet(match_result, TeamNum, 1),
+                    'Player3': PlayerSet(match_result, TeamNum, 2),
+                    'Player4': PlayerSet(match_result, TeamNum, 3),
+                    'Player5': PlayerSet(match_result, TeamNum, 4),
+                    'Player6': PlayerSet(match_result, TeamNum, 5),
+                    'Player7': PlayerSet(match_result, TeamNum, 6),
+                    'Player8': PlayerSet(match_result, TeamNum, 7),
+                    'Player9': PlayerSet(match_result, TeamNum, 8),
+                    'Player10': PlayerSet(match_result, TeamNum, 9),
+                    'Player11': PlayerSet(match_result, TeamNum, 10),
+                    'Player12': PlayerSet(match_result, TeamNum, 11),
+                    'Player13': PlayerSet(match_result, TeamNum, 12),
+                    'Player14': PlayerSet(match_result, TeamNum, 13),
+                    'Player15': PlayerSet(match_result, TeamNum, 14),
+                    'Player16': PlayerSet(match_result, TeamNum, 15),
+                    'Player17': PlayerSet(match_result, TeamNum, 16),
+                    'Player18': PlayerSet(match_result, TeamNum, 17)
                 }
+
                 for i in range(1,19):
                     tempstring='Player'+str(i)
                     latelySquadName.append(PlayerInfo[tempstring]['PlayerInfo']['Player_Name'])
