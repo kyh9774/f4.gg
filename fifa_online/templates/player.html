@@ -63,9 +63,19 @@
                       <td><h8>20경기 승률</h8></td>
                       <td><h8>{{ (rate_result['winLoseInfo']['winRate'] * 100) | int }}%</h8></td>
                   </tr>
+              </table>
+              <table>
                   <tr>
                       <td><h8>평균 득점/실점</h8></td>
                       <td><h8>{{ rate_result['goalInfo']['goalRate'] }}/{{ rate_result['goalInfo']['goalAgainst'] }}</h8></td>
+                  </tr>
+                  <tr>
+                      <td><h8>박스 in/out 골</h8></td>
+                      <td><h8>{{ rate_result['goalInfo']['goal_In'] }}/{{ rate_result['goalInfo']['goal_Out'] }}</h8></td>
+                  </tr>
+                  <tr>
+                      <td><h8>박스 in/out 슈팅</h8></td>
+                      <td><h8>{{ rate_result['shootInfo']['shootRate_In'] }}/{{ rate_result['shootInfo']['shootRate_Out'] }}</h8></td>
                   </tr>
               </table>
           </div>
