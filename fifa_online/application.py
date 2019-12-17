@@ -181,6 +181,13 @@ def search_match(nickname, matchid):
         rate_result=rate_result
     )
 
+@application.route('/main', methods=['GET', 'POST'])
+def page():
+    return render_template(
+        'main.html',
+        nav_menu="home"
+    )
+
 
 if __name__ == '__main__':
     logging.info("Flask Web Server open!!!")
