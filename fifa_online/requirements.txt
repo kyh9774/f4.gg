@@ -48,7 +48,7 @@ docutils==0.13.1
 entrypoints==0.2.2
 fastcache==1.0.2
 Flask==1.1.1
-Flask-Cors==3.0.2
+Flask-Cors==3.0.9
 Flask-Login==0.4.1
 Flask-RESTful==0.3.7
 Flask-WTF==0.14.2
