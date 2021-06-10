@@ -43,7 +43,7 @@ dateparser==0.7.0
 decorator==4.0.11
 defusedxml==0.6.0
 distributed==1.16.3
-Django==2.2
+Django==2.2.24
 docutils==0.13.1
 entrypoints==0.2.2
 fastcache==1.0.2
