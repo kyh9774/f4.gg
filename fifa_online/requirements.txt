@@ -156,7 +156,7 @@ testpath==0.4.4
 toolz==0.10.0
 tornado==5.1.1
 traitlets==4.3.3
-Twisted==17.9.0
+Twisted==22.4.0
 txaio==2.8.2
 tzlocal==2.0.0
 urllib3==1.25.6
